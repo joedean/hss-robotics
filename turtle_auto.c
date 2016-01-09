@@ -4,5 +4,5 @@
 task main(){
   forward(4, seconds);
   turnLeft(1, seconds);
-  forward(3, seconds);
+  forward(6, seconds);
 }
