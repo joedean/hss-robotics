@@ -45,12 +45,12 @@ task main()
 			setMotorSpeed(dumpMotor, 0);
 		}
 
-		////If Button "L-Up" is pressed in, we'll set the arm motor to run in reverse.
+		////If Button "R-Up" is pressed in, we'll set the arm motor to run in reverse.
 		if(getJoystickValue(BtnRUp) == 1)
 		{
 			setMotorSpeed(forkLift, 127);
 		}
-		////If the "L-Up" isn't pressed, but "L-Down" is, we'll set the motor to run forward.
+		////If the "R-Up" isn't pressed, but "R-Down" is, we'll set the motor to run forward.
 		else if(getJoystickValue(BtnRDown) == 1)
 		{
 			setMotorSpeed(forkLift, -127);
